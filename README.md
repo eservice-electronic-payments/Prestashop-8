@@ -25,7 +25,7 @@ Notes:
 
 ![install1](https://github.com/learyeoin/media/blob/a040a464b04485969238a9276632e9a460242778/presta8_1.PNG)
 2.	Once installed you should see the message: "Module Installed".
-![install2](https://user-images.githubusercontent.com/20408449/64269508-e55dfd00-cf31-11e9-8e1d-d65514522944.png)
+![install2](https://github.com/learyeoin/media/blob/a040a464b04485969238a9276632e9a460242778/presta8_2.PNG)
 3.	Then click Configure. On the configuration page you will see the following form fields which must be populated. Please enter them with below values and click ‘Save’ button. All fields are required.
 ### Integration Options Panel
 
@@ -35,7 +35,7 @@ Notes:
 * Merchant ID: replace with your merchant ID, should be several digits e.g. 666888
 * Password: replace with your API password, should be several digits e.g. 1234
 * ID Brand: replace with your brand ID, should be several digits e.g. 222
-![configure1](https://user-images.githubusercontent.com/20408449/64269945-aa0ffe00-cf32-11e9-9c67-49eebd6f6e97.png)
+![configure1](https://github.com/learyeoin/media/blob/a040a464b04485969238a9276632e9a460242778/presta8_3.PNG)
 ## Refunds
 To carry out a refund is simple.
 1.	Just go to the Orders > Orders, it will show all the finished order lists.
