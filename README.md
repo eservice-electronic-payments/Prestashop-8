@@ -23,7 +23,7 @@ Notes:
 
 1. Install the module like any PrestaShop module by going to Modules > Module Catalog page and click on "Upload a Module".
 
-![install1](https://user-images.githubusercontent.com/20408449/64269457-cfe8d300-cf31-11e9-802c-dfd4561d563d.png)
+![install1](https://github.com/learyeoin/media/blob/a040a464b04485969238a9276632e9a460242778/presta8_1.PNG)
 2.	Once installed you should see the message: "Module Installed".
 ![install2](https://user-images.githubusercontent.com/20408449/64269508-e55dfd00-cf31-11e9-8e1d-d65514522944.png)
 3.	Then click Configure. On the configuration page you will see the following form fields which must be populated. Please enter them with below values and click ‘Save’ button. All fields are required.
