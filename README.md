@@ -35,7 +35,7 @@ Notes:
 * Merchant ID: replace with your merchant ID, should be several digits e.g. 666888
 * Password: replace with your API password, should be several digits e.g. 1234
 * ID Brand: replace with your brand ID, should be several digits e.g. 222
-![configure1][(https://user-images.githubusercontent.com/20408449/64269945-aa0ffe00-cf32-11e9-9c67-49eebd6f6e97.png)]
+![configure1](https://user-images.githubusercontent.com/20408449/64269945-aa0ffe00-cf32-11e9-9c67-49eebd6f6e97.png)
 ## Refunds
 To carry out a refund is simple.
 1.	Just go to the Orders > Orders, it will show all the finished order lists.
