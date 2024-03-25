@@ -62,7 +62,7 @@ class EService extends PaymentModule
     // 2 - HOSTED PAY
     const ST_EVO_PAYMENT_TYPE = "2";
     /** end**/
-    const MAX_VERSION = '8.0.0';
+    const PS_VERSION_EIGHT = '8.0.0';
 
 	private $payments = null;
     
@@ -76,7 +76,7 @@ class EService extends PaymentModule
         $this->need_instance = 1;
         $this->bootstrap = true;
         $this->ssl=true;
-        $this->ps_versions_compliancy = ['min' => '1.6.0', 'max' => SELF::MAX_VERSION];
+        $this->ps_versions_compliancy = ['min' => '1.6.0', 'max' => _PS_VERSION_];
 
         $this->currencies = true;
         $this->currencies_mode = 'checkbox';
@@ -1330,7 +1330,7 @@ class EService extends PaymentModule
     }
 	
 	public function hookActionOrderSlipAdd( $params ) {
-		if ( version_compare(_PS_VERSION_, SELF::MAX_VERSION, '>=') && Configuration::get('EVO_REFUND_POSSIBILITY') && isset($params['order']) && ($params['order']->module === $this->name) ){
+		if ( version_compare(_PS_VERSION_, SELF::PS_VERSION_EIGHT, '>=') && Configuration::get('EVO_REFUND_POSSIBILITY') && isset($params['order']) && ($params['order']->module === $this->name) ){
 			$order = $params['order'];
 			$customer = $order->getCustomer();
 			
